@@ -25,10 +25,10 @@ import java.util.Scanner;
             double total = price + shipping;
 
             // Print the shipping cost
-            System.out.printf("Your shipping cost: $%.2f%n", shipping);
+            System.out.println("Your shipping cost: $" + shipping);
 
             // Print the total
-            System.out.printf("The total price: $%.2f%n", total);
+            System.out.println("The total price: $" + total);
         }
     }
 
