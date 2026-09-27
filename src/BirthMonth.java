@@ -14,9 +14,10 @@ public class BirthMonth {
         // If month is 1-12
         // Else, your birth month is: N
         if (month >= 1 && month <= 12) {
-            System.out.print("Your birth month is: " + month);
-        } else {System.out.print("You entered an invalid month: " + month);
-
+            System.out.println("Your birth month is: " + month);
+        } else {
+            System.out.println("You entered an incorrect month value:N " + month);
+        }
 
     }
 }
